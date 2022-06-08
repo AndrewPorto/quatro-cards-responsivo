@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;  
+}
+
+body {
+    background-color: lightgray;
+}
+
+.cabecalho {
+    text-align: center;
+    margin-top: 30px;
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cabecalho h1 {
+    color: hsl(234, 12%, 34%);
+    font-size: 24pt;
+    font-weight: 200;
+    
+}
+
+
+.cabecalho h2 {
+    color: hsl(234, 12%, 34%);
+    font-size: 24pt;
+    font-weight: bold;
+    
+}
+
+.cabecalho p {
+    color: hsl(234, 12%, 34%);
+    font-size: 15pt;
+    font-weight: 200;
+    
+}
+
+main {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+main .esquerda {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 200px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 3px solid hsl(180, 62%, 55%);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+}
+
+
+main .logo01 {
+    width: 50px;
+    margin-left: 180px;
+    margin-top: 20px;
+    
+}
+
+main .logo {
+    width: 50px;
+    margin-left: 180px;
+    
+    
+}
+
+main .central-superior {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 200px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 3px solid hsl(0, 78%, 62%);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+   
+}
+
+main .central-inferior {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 200px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 3px solid hsl(34, 97%, 64%);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+   
+}
+
+main .direita {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 200px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 3px solid hsl(212, 86%, 64%);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    
+}
+
+.titulo {
+    font-weight: 400 bold;
+    color: hsl(234, 12%, 34%);
+}
+
+.paragrafo {
+    font-size: 15px;
+    color: hsl(234, 12%, 34%);
+}
+
+.retangulo {
+    box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.548);
+}
+
+@media (max-width: 900px) {
+    main {
+        flex-direction: column;
+
+    }
+
+}
