@@ -143,7 +143,6 @@ main .direita {
 @media (max-width: 900px) {
     main {
         flex-direction: column;
-
     }
 
 }
